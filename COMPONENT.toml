@@ -1,0 +1,6 @@
+[component]
+name = "SigmaOS-mesa3D"
+tier = 1
+description = "OpenGL, Vulkan, and Gallium3D hardware acceleration shim and driver dispatcher"
+contracts = ['mesa3d-shim', 'gallium-driver-bridge', 'vulkan-loader']
+upstream_inspirations = ['https://github.com/omacom/mesa']
