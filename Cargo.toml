@@ -2,5 +2,9 @@
 name = "sigmaos_mesa3d"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "SigmaOS mesa3d component inspired by Linux Mint / Omarchy / Arch Linux."
 
-[dependencies]
+[lib]
+name = "sigmaos_mesa3d"
+path = "src/lib.rs"
